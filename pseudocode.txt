@@ -1,0 +1,32 @@
+== Contoh Keliling Lingkaran ==
+BEGIN
+
+READ r
+
+DECLARE phi WITH 3.14
+DECLARE result_value WITH 0
+
+CALCULATE 2 TIMES r TIMES phi
+STORE calculation result TO result_value
+
+DISPLAY result_value
+
+END
+
+== Contoh Luas Segitiga ==
+
+BEGIN 
+
+READ p
+READ l
+
+DECLARE result_value WITH 0
+
+CALCULATE p TIMES l
+STORE calculation result TO result_value
+
+DISPLAY result_value
+
+END
+
+
